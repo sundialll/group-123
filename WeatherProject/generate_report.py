@@ -4,7 +4,7 @@ import os
 import webbrowser
 from datetime import datetime
 
-# ========== 读取 CSV 数据 ==========
+# 读取 CSV 数据
 def load_data():
     """加载两个 CSV 文件，返回数据帧字典"""
     try:
@@ -137,7 +137,7 @@ def generate_html(df_today, df_14):
     # 自动打开
     webbrowser.open('综合报告.html')
 
-# ========== 主函数 ==========
+# 主函数
 def main():
     df_today, df_14 = load_data()
     if df_today is None or df_14 is None:
