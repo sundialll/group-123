@@ -1,0 +1,43 @@
+
+    <!DOCTYPE html>
+    <html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <title>成都天气综合分析报告</title>
+        <style>
+            body { font-family: 'Microsoft YaHei', Arial, sans-serif; margin: 40px; background: #f9f9f9; }
+            .container { max-width: 1200px; margin: 0 auto; background: #fff; padding: 30px; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+            h1 { color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px; }
+            h2 { color: #34495e; margin-top: 30px; }
+            h3 { color: #2c3e50; margin-top: 20px; }
+            table { border-collapse: collapse; width: auto; margin: 10px 0 20px; }
+            th { background: #3498db; color: white; font-weight: bold; }
+            td, th { padding: 8px 15px; text-align: center; }
+            tr:nth-child(even) { background: #f2f2f2; }
+            .footer { margin-top: 40px; color: #7f8c8d; font-size: 14px; border-top: 1px solid #ddd; padding-top: 15px; text-align: center; }
+            .img-section { display: flex; flex-wrap: wrap; gap: 20px; }
+            .img-item { flex: 1 1 45%; min-width: 300px; }
+        </style>
+    </head>
+    <body>
+    <div class="container">
+        <h1> 成都天气数据分析综合报告</h1>
+        <p>生成时间: 2026-07-16 10:20:03</p>
+
+        <h2> 当天（24小时）统计</h2>
+        <h3></h3><table border='1' cellpadding='5'><tr><th>指标</th><th>均值</th><th>最大</th><th>最小</th></tr><tr><td>温度</td><td>33.1</td><td>38.7</td><td>27.7</td></tr><tr><td>相对湿度</td><td>58.0</td><td>80</td><td>41</td></tr><tr><td>空气质量</td><td>39.9</td><td>63.0</td><td>25.0</td></tr></table>
+
+        <h2> 未来14天统计</h2>
+        <h3></h3><table border='1' cellpadding='5'><tr><th>指标</th><th>均值</th><th>最大</th><th>最小</th></tr><tr><td>最高气温</td><td>34.6</td><td>37</td><td>31</td></tr><tr><td>最低气温</td><td>24.4</td><td>26</td><td>23</td></tr><tr><td>风级</td><td>3.0</td><td>3</td><td>3</td></tr></table>
+
+        <h3>未来14天天气现象分布</h3><table border='1' cellpadding='5'><tr><th>天气</th><th>天数</th></tr><tr><td>晴</td><td>3</td></tr><tr><td>雨转阴</td><td>3</td></tr><tr><td>多云</td><td>2</td></tr><tr><td>雨转多云</td><td>2</td></tr><tr><td>雨</td><td>2</td></tr><tr><td>多云转阴</td><td>1</td></tr><tr><td>阴转雨</td><td>1</td></tr></table>
+
+        <h3> 图表展示</h3><div style='display:flex;flex-wrap:wrap;gap:20px;'><div style='max-width:45%;'><img src='Figure_1.png' style='width:100%;border:1px solid #ccc;border-radius:8px;'><br><span style='font-size:12px;'>Figure_1.png</span></div><div style='max-width:45%;'><img src='Figure_2.png' style='width:100%;border:1px solid #ccc;border-radius:8px;'><br><span style='font-size:12px;'>Figure_2.png</span></div><div style='max-width:45%;'><img src='Figure_3.png' style='width:100%;border:1px solid #ccc;border-radius:8px;'><br><span style='font-size:12px;'>Figure_3.png</span></div><div style='max-width:45%;'><img src='Figure_4.png' style='width:100%;border:1px solid #ccc;border-radius:8px;'><br><span style='font-size:12px;'>Figure_4.png</span></div><div style='max-width:45%;'><img src='Figure_5.png' style='width:100%;border:1px solid #ccc;border-radius:8px;'><br><span style='font-size:12px;'>Figure_5.png</span></div><div style='max-width:45%;'><img src='Figure_6.png' style='width:100%;border:1px solid #ccc;border-radius:8px;'><br><span style='font-size:12px;'>Figure_6.png</span></div><div style='max-width:45%;'><img src='Figure_7.png' style='width:100%;border:1px solid #ccc;border-radius:8px;'><br><span style='font-size:12px;'>Figure_7.png</span></div><div style='max-width:45%;'><img src='Figure_8.png' style='width:100%;border:1px solid #ccc;border-radius:8px;'><br><span style='font-size:12px;'>Figure_8.png</span></div></div>
+
+        <div class="footer">
+            <p>报告由 Python 自动生成 | 数据来源：中国天气网 (weather.com.cn)</p>
+        </div>
+    </div>
+    </body>
+    </html>
+    
